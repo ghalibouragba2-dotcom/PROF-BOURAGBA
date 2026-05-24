@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROF BOURAGBA - Examens Régionaux 3AC (2015-2025)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        
+        .info-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .feature-card {
+            background: #f9f9f9;
+            border: 2px solid #e0e0e0;
+            padding: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+        
+        .feature-card h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .regions-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .region-badge {
+            background: #667eea;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .cta-button:hover {
+            background: #764ba2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 PROF BOURAGBA</h1>
+            <p class="subtitle">Plateforme d'Examens Régionaux - Classe de 3ème Année du Cycle de l'Enseignement Secondaire Collégial</p>
+        </header>
+        
+        <div class="info-box">
+            <p><strong>📅 Période couverte:</strong> 2015 - 2025 | <strong>🌍 Couverture:</strong> Toutes les régions du Maroc</p>
+        </div>
+        
+        <h2>✨ Fonctionnalités principales</h2>
+        <div class="features">
+            <div class="feature-card">
+                <h3>🗂️ Tous les Examens</h3>
+                <p>Accédez à plus de 10 ans d'examens régionaux de 3AC collectés de toutes les académies marocaines.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔍 Recherche Avancée</h3>
+                <p>Filtrez les examens par région, année, matière et autres critères pour trouver exactement ce dont vous avez besoin.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📊 Statistiques</h3>
+                <p>Tableau de bord avec statistiques détaillées sur les examens disponibles par année et région.</p>
+            </div>
+            <div class="feature-card">
+                <h3>💾 Téléchargement Facile</h3>
+                <p>Téléchargez les examens au format PDF pour une étude hors ligne.</p>
+            </div>
+        </div>
+        
+        <h2>🌍 Régions Couvertes</h2>
+        <div class="regions-list">
+            <div class="region-badge">🏙️ Casablanca-Settat</div>
+            <div class="region-badge">🏔️ Fès-Meknès</div>
+            <div class="region-badge">🌊 Souss-Massa</div>
+            <div class="region-badge">🌳 Marrakech-Safi</div>
+            <div class="region-badge">🏜️ Béni Mellal-Khénifra</div>
+            <div class="region-badge">⛰️ L'Oriental</div>
+            <div class="region-badge">🌲 Drâa-Tafilalet</div>
+            <div class="region-badge">🎭 Rabat-Salé-Kénitra</div>
+            <div class="region-badge">🌊 Tanger-Tétouan-Al Hoceïma</div>
+            <div class="region-badge">🏜️ Guelmim-Oued Noun</div>
+            <div class="region-badge">🏝️ Laâyoune-Sakia El Hamra</div>
+            <div class="region-badge">⛵ Dakhla-Oued Ed-Dahab</div>
+        </div>
+        
+        <div class="info-box" style="background: #e8f5e9; border-left-color: #4caf50; margin-top: 30px;">
+            <h3 style="color: #4caf50; margin-bottom: 10px;">🚀 Application Web en Cours de Développement</h3>
+            <p>Une application web complète avec recherche avancée, filtrage et gestion des examens est actuellement en développement.</p>
+            <p style="margin-top: 10px; font-size: 0.9em; color: #666;">Nous travaillons pour vous fournir une plateforme intuitive et performante pour accéder facilement à tous les examens régionaux.</p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2026 PROF BOURAGBA - Tous les droits réservés</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">Plateforme éducative dédiée aux examens régionaux marocains</p>
+        </footer>
+    </div>
+</body>
+</html>
